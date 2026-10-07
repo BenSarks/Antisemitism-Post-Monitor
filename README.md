@@ -1,4 +1,4 @@
-# Antisemitism Post Monitor (prototype)
+# Antisemitism Post Monitor 
 
 A prototype pipeline that collects public Instagram posts from hashtag feeds, runs a text classifier over each post, and shows the results on a dashboard: totals, a weekly trend of flagged posts, a word cloud of hashtags, the users with the most flagged posts, and a list of flagged posts with links back to Instagram.
 
