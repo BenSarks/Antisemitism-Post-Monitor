@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets: Instagram login sessions and local environment files
+*_settings.json
+.env
+.env.local
+
+# Training data and scratch notebooks (not redistributed)
+nlp/data/
+nlp/test1.ipynb
+nlp/nlp.ipynb
+nlp/orc.ipynb
+
+# Trained model (too large for the repository; produced by nlp/trainer.ipynb)
+backend/api/data/*.joblib

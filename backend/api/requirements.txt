@@ -1,0 +1,16 @@
+fastapi==0.142.2
+uvicorn==0.54.0
+SQLAlchemy==2.1.3
+PyMySQL==1.2.3
+pydantic==2.13.5
+joblib==1.6.0
+numpy==2.5.3
+# The model in data/ is a pickle: it must be loaded with this exact scikit-learn version.
+scikit-learn==1.9.1
+
+# Optional, only needed when ENABLE_OCR=true
+# easyocr==1.7.2
+
+# Tests
+pytest==9.1.1
+httpx==0.28.1
